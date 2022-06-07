@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr, 2fr, 1fr;
+    grid-gap: 10px;
+    
+}
+.grid-item-header {
+    background-color: gray;
+    text-align: center;
+}
+.grid-item-header2 {
+    background-color: gray;
+    text-align: center;
+}
+.grid-item-header3 {
+    background-color: gray;
+    text-align: center;
+}
+
+.home {
+    color: white;
+}
+a:active {
+    color: red;
+  }
+  a:hover {
+    color: aqua;
+  }
+  .main{
+     
+  }
