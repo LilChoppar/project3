@@ -4,43 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <title>Home page</title>
 </head>
 <body>
-    <div class="grid-container">
-       
-        <div class="grid-item-header">
-            
-            <header> 
-                <nav>
+    <header>
+        <div class="nav-container">
+            <div >
+                <nav class="nav-button">
+                    <i class="fa-solid fa-house-blank"></i>
                     <a id="home" href="index.html">Home Page</a>
-                </nav>
-            </header>
-        </div>
 
-        <div class="grid-item-header2">
-            <header>
-                <nav>
+                </nav>
+            </div>
+            <div>
+                <nav class="nav-button">
                     <a href="contact.html">Contact Information</a>
-                </nav>
-            </header>
-        </div>
 
-        <div class="grid-item-header3">
-            <header>
-                <nav>
+                </nav>
+            </div>
+            <div>
+                <nav class="nav-button">
                     <a href="videos.html">Videos</a>
                 </nav>
-            </header>
+            </div>
         </div>
+    </header>
     
-        <div id="main">
-            <main>
-                <p>tests</p> 
-            </main>
+    <div class="main">
+        <div>
+            <div class="video-container">
+                <iframe width="375" height="275" src="https://www.youtube.com/embed/scK7XJxu-yI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+            
+            <div class="img-container">
+                <h1>I like skateboarding and animals</h1>
+                <img src="/styles/chimp.jpeg" alt="Chimp skating up a storm!" width="375" height="375">
+            </div>
+
         </div>
+        
 
     </div>
+
+    <footer>
+        <div class="footer-container">
+            Jose Salomone
+        </div>
+    </footer>
+
 </body>
 </html>
